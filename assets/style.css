@@ -1,7 +1,24 @@
-.table-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button, .button{
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    background: #aab4f9;
+}
+form{
+    margin-top: 10%;
+    gap:20px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
 }
 table, th, td {
     border: 1px solid;
@@ -14,4 +31,22 @@ table{
 }
 th{
     text-align: left;
+}
+
+/* utility class */
+
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
 }
