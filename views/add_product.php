@@ -4,13 +4,9 @@ include("../model/app_logic.php");
 
 if(isset($_POST['submit'])){
     addProduct();
-    // print_r($_POST);
-    // clear items in post
 }
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
